@@ -1,0 +1,95 @@
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  img{
+    width: 150px;
+    align-items: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .custom-btn {
+    font-size: 15px;
+    margin-bottom: 20px;
+
+  }
+  #importModal .download {
+  display: block;
+  margin: 0 auto;
+  color: black;
+  width: 500px;
+  }
+  .modal-title {
+  font-size: 20px;
+  font-weight: bold;
+  }
+  .modal-body .btn-primary {
+  margin-top: 5px;
+  padding: 5px 50px;
+
+  }
+
+
+  .form-group {
+  display: inline-block;
+  margin-right: 10px;
+  }
+  .form-container {
+  text-align: center;
+  }
+  .download-container {
+  text-align: center;
+  }
+
+  .download {
+  display: inline-block;
+  }
+  /* Navbar styles */
+  .navbar {
+    background-color: rgb(18, 77, 255);
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  /* Link styles */
+  .navbar-nav>li>a {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+
+  }
+
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    color: rgb(39, 33, 33);
+    background-color: rgb(236, 40, 40);
+
+  }
+   /* Center the modal title */
+  .modal-title {
+    text-align: center;
+    font-size: 10px;
+}
+/* Add spacing to the top of the "Import" button */
+/* Make sure the container clears the floated elements */
+  .modal-body::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Style the "Import" button */
+  .modal-body .btn-primary {
+    margin-top: 5px;
+    padding: 5px 50px;
+    float: right;
+  }
+
+  .close {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 5px 10px;
+  }

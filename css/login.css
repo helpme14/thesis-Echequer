@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.card {
+  position: relative;
+  background: #FFFFFF;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.card-header {
+  background-color: royalblue;
+  color: white;
+}
+
+h3 {    
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 13px;
+}
+
+.card input {
+  font-family: "Poppins";
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+  border: 0;
+}
+
+.card button {
+  font-family: "Poppins";
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: royalblue;
+  width: 100%;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 20px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.card .message {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.card .message a {
+  color: royalblue;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Poppins"; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.error-msg {
+    color: rgb(255, 0, 0);
+}

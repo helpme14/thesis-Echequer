@@ -1,0 +1,38 @@
+.user-container{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+  
+  li {
+    display: list-item;
+    margin-left: 0em;
+    padding-left: 50px;
+    list-style: none;
+    
+  }
+
+
+  .user-container li {
+    margin: 5px 0;
+
+  }
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    display: block;
+  }
+
+
+
+

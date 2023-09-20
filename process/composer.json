@@ -1,0 +1,11 @@
+{
+    "name": "kuneho/thesis",
+    "autoload": {
+        "psr-4": {
+            "Kuneho\\Thesis\\": "src/"
+        }
+    },
+    "require": {
+        "endroid/qr-code": "^4.8"
+    }
+}
